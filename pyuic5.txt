@@ -1,0 +1,21 @@
+pyuic5 -x -o ReSTed.py ReSTedLineColLabels.ui 
+
+pyuic5 -x -o ReSTedDialog.py Dialog.ui
+
+pyuic5 -x -o ReSTed.py ReSTedSync.ui
+
+pyuic5 -x -o ReSTedSMenus.py ReSTedSyncSMenus.ui
+
+ReSTedSyncSMenus.ui
+
+pyuic5 -x -o ReSTedSToolbar.py ReSTedSyncToolbar.ui
+
+pyuic5 -x -o ReSTedSyncReSTMenu.py ReSTedSyncReSTMenu.ui
+
+------------------------------------------------
+
+pyuic5 -x -o PreferencesDialog.py Preferences.ui
+
+pyuic5 -x -o SearchReplaceDlg.py SearchReplaceDlg.ui
+
+/media/vault/docs/softdev/python/pyqt/projs/rested/SearchReplaceDlg.ui

@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.16: http://docutils.sourceforge.net/" />
+<style type="text/css">
+body {background-color: powderblue; line-height: 150%;}
+h1   {color: blue;}
+h1.title {border-bottom: solid 2px navy;
+          padding: 12pt; }
+p    {color: black; font-size: 12pt;}
+
+dl {padding: 5pt; }
+dt {font-variant: small-caps; font-weight: bold; font-size: 14pt; 
+    margin-bottom: 5pt; }
+dd {margin-bottom: 16pt; }
+</style>
+<title>QuickReSTructuredtext</title></head>
+<body>
+<div class="document">
+
+
+<div class="comment">
+<div class="section" id="rest-to-html-the-official-way">
+<h1>ReST to html -- the official way</h1>
+<p>Quick <a class="reference external" href="https://docutils.sourceforge.io/docs/user/rst/quickref.html#section-structure">reStructuredText</a>.</p>
+<hr class="docutils" />
+<p><em>Italic</em> and <strong>Bold.</strong></p>
+<pre class="literal-block">
+# Preformatted,
+# For communicating code.
+
+# Yes, it can have spaces.
+</pre>
+<p>Here's a <cite>link to Python.org.</cite></p>
+<p>_ <a class="reference external" href="http://www.python.org/">http://www.python.org/</a></p>
+<div class="section" id="section-structure">
+<h2>Section structure</h2>
+<div class="section" id="section">
+<h3>Section</h3>
+<div class="section" id="id1">
+<h4>Section</h4>
+<div class="section" id="id2">
+<h5>Section</h5>
+<div class="section" id="id3">
+<h6>Section</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="lists">
+<h1>Lists</h1>
+<p><strong>Bullet list:</strong></p>
+<ul class="simple">
+<li>Point A</li>
+<li>Point B</li>
+<li>Point C</li>
+<li>Point D</li>
+</ul>
+<p><em>Different one:</em></p>
+<ul class="simple">
+<li>Point 1</li>
+<li>Point 2</li>
+<li>Point 3</li>
+</ul>
+<ul class="simple">
+<li>Point 1</li>
+<li>Point 2</li>
+<li>Point 3</li>
+</ul>
+<p><strong>Numbered list</strong>:</p>
+<ol class="arabic simple">
+<li>Point 1</li>
+<li>Point 2</li>
+<li>Point 3</li>
+<li>Point 4</li>
+</ol>
+<p><strong>Definition list</strong>:</p>
+<dl class="docutils">
+<dt>term1</dt>
+<dd>Definition of term1</dd>
+<dt>term2</dt>
+<dd>Definition of term2</dd>
+</dl>
+<p>Short break...</p>
+<p>Another definition list:</p>
+<dl class="docutils">
+<dt>Subject 0</dt>
+<dd>Definition of <cite>subject 0</cite></dd>
+<dt>Subject 1</dt>
+<dd><p class="first">Definition of <cite>subject 1</cite></p>
+<p>More on <cite>subject 1</cite></p>
+<p class="last">...and even more, on <cite>subject 1</cite> -- whole in three paragraphs.</p>
+</dd>
+<dt>Subject 2</dt>
+<dd>Definition of <cite>subject 2</cite> Some long text... Some long text... Some long text... Some long text...Some long text...
+Some long text... Some long text... Some long text...Some long text... Some long text... Some long text...
+Some long text... Some long text... Some long text... Some long text... Some long text... (Total of 3 lines,
+with <cite>\n</cite> character each, but without any blank lines and every line indented.)</dd>
+</dl>
+<p>Yet another definition list:</p>
+<dl class="docutils">
+<dt>ABC</dt>
+<dd>ABC stands for something, Some long text... Some long text... Some long text... Some long text...
+or something different Some long text... Some long text... Some long text... Some long text...
+entirely...Some long text... Some long text... Some long text... Some long text... Some long text...</dd>
+</dl>
+<p>Some long text... Some long text... Some long text... Some long text...
+Some long text... Some long text... Some long text... Some long text...
+Some long text... Some long text... Some long text... Some long text...</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Developer:</th><td class="field-body">Khaz</td>
+</tr>
+<tr class="field"><th class="field-name">Application:</th><td class="field-body">ReSTed</td>
+</tr>
+<tr class="field"><th class="field-name">Year:</th><td class="field-body">2021</td>
+</tr>
+</tbody>
+</table>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd><span class="option">-a</span></kbd></td>
+<td>option a</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">-b</span></kbd></td>
+<td>option b</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">-c<var>long</var></span></kbd></td>
+<td>option clong</td></tr>
+</tbody>
+</table>
+<p>A transition marker is a horizontal line
+of 4 or more repeated punctuation
+characters.</p>
+<hr class="docutils" />
+<p>A transition should not begin or end a
+section or document, nor should two
+transitions be immediately adjacent.</p>
+<p>Typical result
+Footnote references, like <a class="footnote-reference" href="#id5" id="id4">[5]</a>.
+Note that footnotes may get
+rearranged, e.g., to the bottom of
+the &quot;page&quot;.</p>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[5]</a></td><td>A numerical footnote. Note
+there's no colon after the <tt class="docutils literal">]</tt>.</td></tr>
+</tbody>
+</table>
+<p>Autonumbered footnotes are
+possible, like using <a class="footnote-reference" href="#id8" id="id6">[1]</a> and <a class="footnote-reference" href="#id9" id="id7">[2]</a>.</p>
+<table class="docutils footnote" frame="void" id="id8" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[1]</a></td><td>This is the first one.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id9" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[2]</a></td><td>This is the second one.</td></tr>
+</tbody>
+</table>
+<p>They may be assigned 'autonumber
+labels' - for instance,
+<a class="footnote-reference" href="#fourth" id="id10">[4]</a> and <a class="footnote-reference" href="#third" id="id11">[3]</a>.</p>
+<table class="docutils footnote" frame="void" id="third" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id11">[3]</a></td><td>a.k.a. <a class="reference internal" href="#third">third</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="fourth" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id10">[4]</a></td><td>a.k.a. <a class="reference internal" href="#fourth">fourth</a></td></tr>
+</tbody>
+</table>
+<p>Auto-symbol footnotes are also
+possible, like this: <a class="footnote-reference" href="#id14" id="id12">[*]</a> and <a class="footnote-reference" href="#id15" id="id13">[†]</a>.</p>
+<table class="docutils footnote" frame="void" id="id14" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id12">[*]</a></td><td>This is the first one.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id15" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id13">[†]</a></td><td>This is the second one.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="titles-are-targets-too">
+<h1>Titles are targets, too</h1>
+<p>Implict references, like <a class="reference internal" href="#titles-are-targets-too">Titles are
+targets, too</a>.</p>
+</div>
+</div>
+</body>
+</html>
+</html>
